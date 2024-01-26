@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Displays teh numbers from 1 to 20 and in the 4th iteration, displays 4 and then bad luck from china, 9th iteration bad luck from japan and in the 17th iteration bad luck from italy.
+
+number=1
+while [ $number -le 20 ];
+do
+	echo $number
+	case $number in
+	4)
+	echo "bad luck from China";;
+	9)
+	echo "bad luck from Japan";;
+	17)
+	echo "bad luck from Italy";;
+	esac
+	number=$((number + 1))
+done

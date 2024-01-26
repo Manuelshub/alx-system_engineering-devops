@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Script that displays the content of the current directory, ina list format.
+
+for i in *;
+do
+	if [[ -f "$i" && ! "$i" =~ ^\. ]]; then
+		file=$(echo "$i" | cut -d '-' -f 2)
+		echo "$file"
+	fi
+done

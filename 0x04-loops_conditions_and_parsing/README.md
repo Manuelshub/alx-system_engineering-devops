@@ -36,6 +36,8 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `9-to_file_or_not_to_file`: This script gives you information about the "school" file.
 
+- `10-fizzbuzz`: This script displays numbers from 1 to 100, displays FizzBuzz when the number is a multiple of 3 and 5, Fizz when it is a multiple of 3 and Buzz when it is a multiple of 5.
+
 ## Usage
 
 1. Clone the repository:

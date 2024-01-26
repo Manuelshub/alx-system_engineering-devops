@@ -24,6 +24,9 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `3-until_best_school`: This bash script displays "Best School" 10 times using the until loop.
 
+- `4-if_9_say_hi`: This bash script displays "Best School" 10 times, but for the 9th iteration,displays "Best School" and then "Hi" on a new line.
+
+
 ## Usage
 
 1. Clone the repository:

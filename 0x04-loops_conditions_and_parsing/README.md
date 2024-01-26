@@ -18,7 +18,9 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `0-RSA_public_key.pub`: In this file contains the public key of my RSA key pair that I created for this task.
 
-- `1-for_best_school`: This bash script displays Best School 10 times.
+- `1-for_best_school`: This bash script displays "Best School" 10 times, using for loop.
+
+- `2-while_best_school`: This bash script displays "Best School" 10 times using while loop.
 
 ## Usage
 

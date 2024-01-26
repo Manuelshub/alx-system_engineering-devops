@@ -34,6 +34,8 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `8-for_ls`: This scripit displays the content of the current directory in a list format, where only the part of the name after the first dash is displayed.
 
+- `9-to_file_or_not_to_file`: This script gives you information about the "school" file.
+
 ## Usage
 
 1. Clone the repository:

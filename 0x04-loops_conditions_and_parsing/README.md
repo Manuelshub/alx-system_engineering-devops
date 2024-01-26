@@ -22,6 +22,8 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `2-while_best_school`: This bash script displays "Best School" 10 times using while loop.
 
+- `3-until_best_school`: This bash script displays "Best School" 10 times using the until loop.
+
 ## Usage
 
 1. Clone the repository:

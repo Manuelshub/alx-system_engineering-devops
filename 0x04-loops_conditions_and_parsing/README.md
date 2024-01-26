@@ -30,6 +30,7 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `6-superstitious_numbers`: This script displays numbers from 1 to 20 and displays 4 and then bad luck from china for the 4th iteration, 9 and then bad luck from japan, 17 and then bad luck from italy.
 
+- `7-clock`: This script displays the time for 12 hours and 59 minutes.
 
 ## Usage
 

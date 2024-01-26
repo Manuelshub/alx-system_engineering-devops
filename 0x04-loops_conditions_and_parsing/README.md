@@ -28,6 +28,9 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `5-4_bad_luck_8_is_your_chance`: This script loops from 1 to 10 and displays "bad luck" for the 4th iteration, "good luck" for the 8yj iteration and "Best School" for other iterations.
 
+- `6-superstitious_numbers`: This script displays numbers from 1 to 20 and displays 4 and then bad luck from china for the 4th iteration, 9 and then bad luck from japan, 17 and then bad luck from italy.
+
+
 ## Usage
 
 1. Clone the repository:

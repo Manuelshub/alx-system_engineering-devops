@@ -22,4 +22,3 @@ To get started with the projects in this repository, follow these steps:
 ```bash
 $ git clone https://github.com/your-username/alx-system_engineering_devops.git
 ```
-

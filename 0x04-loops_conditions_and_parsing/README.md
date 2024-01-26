@@ -32,6 +32,8 @@ The "0x04-loops_conditions_and_parsing" project is designed to showcase the use 
 
 - `7-clock`: This script displays the time for 12 hours and 59 minutes.
 
+- `8-for_ls`: This scripit displays the content of the current directory in a list format, where only the part of the name after the first dash is displayed.
+
 ## Usage
 
 1. Clone the repository:

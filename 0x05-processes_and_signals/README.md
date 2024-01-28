@@ -17,6 +17,10 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `0-what-is-my-pid`: This script displays its own PID.
 
+- `1-list_your_processes`: This Script that displays a list of currently running processes.
+
+
+
 ## Usage
 
 1. Clone the repository:

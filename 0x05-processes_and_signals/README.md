@@ -23,6 +23,8 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `3-show_your_bashpid_made_easy`: This Script displays the PID along with the process name.
 
+- `4-to_infinity_and_beyond`: This Script displays "To infinity and beyond" indefinitely.
+
 ## Usage
 
 1. Clone the repository:

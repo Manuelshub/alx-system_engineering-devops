@@ -29,6 +29,8 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `6-stop_me_if_you_can`: This Script stops 4-to_infinity_and_beyond process using pkill command.
 
+- `7-highlander`: This script displays "o infinity and beyond" and "I am invincible" when receiving a SIGTERM signal.
+
 ## Usage
 
 1. Clone the repository:

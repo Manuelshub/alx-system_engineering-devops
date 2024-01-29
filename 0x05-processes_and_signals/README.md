@@ -25,6 +25,8 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `4-to_infinity_and_beyond`: This Script displays "To infinity and beyond" indefinitely.
 
+- `5-dont_stop_me_now`: This Script stops 4-to_infinity_and_beyond process
+
 ## Usage
 
 1. Clone the repository:

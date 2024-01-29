@@ -27,6 +27,8 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `5-dont_stop_me_now`: This Script stops 4-to_infinity_and_beyond process
 
+- `6-stop_me_if_you_can`: This Script stops 4-to_infinity_and_beyond process using pkill command.
+
 ## Usage
 
 1. Clone the repository:

@@ -31,6 +31,8 @@ The "0x05 Processes and Signals" project explores various aspects of processes a
 
 - `7-highlander`: This script displays "o infinity and beyond" and "I am invincible" when receiving a SIGTERM signal.
 
+- `8-beheaded_process`: This Script kills the process 7-highlander.
+
 ## Usage
 
 1. Clone the repository:

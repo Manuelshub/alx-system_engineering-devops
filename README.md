@@ -18,7 +18,9 @@ Introduction to shell loops, conditions and parsing.
 
 6. [0x05-processes_and_signals](0x05-processes_and_signals/): Introduction to processes and signals in bash.
 
-7. [command_line_for_the_win](command_line_for_the_win): Optional project.
+7. [0x06-regular_expressions](0x06-regular_expressions/): Introduction to regular expressions.
+
+8. [command_line_for_the_win](command_line_for_the_win): Optional project.
 
 ## Setup
 

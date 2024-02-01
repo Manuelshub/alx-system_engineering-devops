@@ -20,7 +20,9 @@ Introduction to shell loops, conditions and parsing.
 
 7. [0x06-regular_expressions](0x06-regular_expressions/): Introduction to regular expressions.
 
-8. [command_line_for_the_win](command_line_for_the_win): Optional project.
+8. [0x07-networking_basics](0x07-networking_basics/): Introduction to networking.
+
+9. [command_line_for_the_win](command_line_for_the_win): Optional project.
 
 ## Setup
 

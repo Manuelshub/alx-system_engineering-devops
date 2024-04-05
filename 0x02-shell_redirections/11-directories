@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Initialize counter
+count=0
+
+# Function to count directories recursively
+count_directories() {
+    local dir="$1"
+    # Loop through directories and subdirectories
+    for item in "$dir"/*; do
+        if [ -d "$item" ]; then
+            # Increment counter for each directory found
+            ((count++))
+            # Recursively count directories in subdirectories
+            count_directories "$item"
+        fi
+    done
+}
+
+# Call function to count directories starting from the current directory
+count_directories .
+
+# Display the total count
+echo "$count"
+

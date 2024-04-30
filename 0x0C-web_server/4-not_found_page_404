@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# This Script configures a brand new ubuntu machine with the redirection status code "301 Moved Permanently and 404 nit found"
+
+apt-get update -y
+apt-get install nginx -y
+
+echo "Hello World!" > /var/www/html/index.html
+substitute_string="server_name _;\nrewrite ^\/redirect_me http:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
+
+sed -i "s/server_name _;/$substitute_string/g" /etc/nginx/sites-enabled/default
+
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+substitute_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+
+sed -i "s/listen 80 default_server;/$substitute_string/g" /etc/nginx/sites-enabled/default
+
+service nginx restart

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# This Script configures a brand new Ubuntu machine. Configures Nginx so
+# that its HTTP response header contains a custom header(on web-01 and 
+# web-02)
+
+sudo apt-get update -y
+sudo apt-get install nginx -y
+
+# Bring the firewall down for Nginx
+sudo ufw allow "Nginx HTTP"
+
+echo "Hello World!" > /var/www/html/index.html
+
+# Add custom header and redirect for a single page
+substitute_string="server_name _;\n\tadd_header X-Served-By \$HOSTNAME;\n\trewrite ^\/redirect_me http:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4 permanent;"
+
+sed -i "s/server_name _;/$substitute_string/g" /etc/nginx/sites-enabled/default
+
+echo "Ceci n'est pas une page" > /var/www/html/404.html
+
+substitute_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+
+sed -i "s/listen 80 default_server;/$substitute_string/g" /etc/nginx/sites-enabled/default
+
+# Start the nginx
+sudo service nginx restart

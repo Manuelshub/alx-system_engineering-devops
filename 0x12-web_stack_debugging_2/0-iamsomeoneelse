@@ -3,9 +3,9 @@
 
 user=$1
 
-if  ! id "$user" >/dev/null 2>&1;
-then
+if  ! id "$user" >/dev/null 2>&1; then
 	sudo useradd -m -s /bin/bash "$user"
 fi
 
 su - "$user" -c "whoami"
+

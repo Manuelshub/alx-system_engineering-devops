@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This Script that accepts one argument, runs the whoami command under the user passed as an argument.
 
-user="$1"
+user=$1
 
 if  ! id "$user" >/dev/null 2>&1;
 then

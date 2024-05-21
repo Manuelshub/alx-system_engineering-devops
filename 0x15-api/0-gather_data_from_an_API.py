@@ -17,6 +17,5 @@ if __name__ == "__main__":
 
     print("Employee {} is done with tasks({}/{}):".format(
         username, len(completed), len(tasks)))
-    
     for task in completed:
         print(f"\t {task}")

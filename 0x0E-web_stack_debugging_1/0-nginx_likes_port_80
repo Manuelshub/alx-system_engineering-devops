@@ -4,5 +4,5 @@
 # Note: The ln is used to create symbolic link, the flag -s creates the link and -f deletes
 # the existing file and replace it.
 
-sudo ln -sf etc/nginx/sites-available/default etc/nginx/sites-enabled/default
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart

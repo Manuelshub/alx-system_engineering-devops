@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script configures nginx on a ubuntu machine
+
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt install nginx -y
+sudo service nginx start

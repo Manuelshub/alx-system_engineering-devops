@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
-# This script configures nginx on a ubuntu machine
+# This script configures nginx on a ubuntu machine, I installed nginx then
+# Deleted the ../sites-enabled/default and replaced it with ../sites-available/default
+# Note: The ln is used to create symbolic link, the flag -s creates the link and -f deletes
+# the existing file and replace it.
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt install nginx -y
 sudo ufw allow 'Nginx HTTP'
 sudo service nginx start
-sudo service nginx enable
+
+sudo ln -sf etc/nginx/sites-available/default etc/nginx/sites-enabled/default
+sudo service nginx restart

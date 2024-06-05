@@ -16,10 +16,10 @@ def top_ten(subreddit):
     url = f"https://www.reddit.com/r/{subreddit}/top.json"
     user_agent = {'User-Agent': 'Google Chrome Version 125.0.6422.141'}
 
-    request = requests.get(url, headers=user_agent)
-    response = request.json()
-
     try:
+        request = requests.get(url, headers=user_agent)
+        response = request.json()
+
         data = response.get('data').get('children')
         for post in data[:10]:
             print(post['data']['title'])

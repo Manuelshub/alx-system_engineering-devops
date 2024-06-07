@@ -6,5 +6,5 @@ $filename = '/var/www/html/wp-settings.php'
 
 exec { 'replace_line':
   command => "sed -i 's/phpp/php/g' ${filename}",
-  path    => ['bin', 'usr/bin']
+  path    => ['bin','usr/bin']
 }
